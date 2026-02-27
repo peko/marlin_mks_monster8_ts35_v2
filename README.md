@@ -1,3 +1,23 @@
+# Marlin for MKS Monster8 board with TS35 v2.0 Display
+
+<img width=300 src="mks_monster8.jpg" />
+
+[Original source code from MKS](https://github.com/makerbase-mks/MKS-Monster8/tree/main/marlin%20firmware%20for%20voron)
+
+## Install precompiled binary
+
+- Copy precompiled firmware `./firmware_bin/mks_monster8.bin` to root of SD card, 
+- Insert it to board and then reset
+- Screen must show installation process
+
+## Compilation
+
+- Install `platformio` to your system
+- If needed, edit `./Marlin/Configuration.h`, here youtube [instruction](https://www.youtube.com/watch?v=OGwYy4-9epE)
+- Run `pio run -e mks_monster8` at root folder
+- Compiled bin can be founded at `./pio/build/mks_monster8/mks_monster8.bin`
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
